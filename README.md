@@ -93,7 +93,7 @@ API REST desarrollada con Node.js, Express y MongoDB para gestionar series de te
 
 #  🧠 MODELS
 
-**Series**
+**Series**  
 {  
   title: String,  
   imgUrl: String,  
@@ -104,7 +104,7 @@ API REST desarrollada con Node.js, Express y MongoDB para gestionar series de te
   platforms: [{ type: ObjectId, ref: "Platform" }] // Datos relacionados  
 }  
 
-**Plataformas**
+**Plataformas**  
 {  
   name: String,  
   imgUrl: String,  
