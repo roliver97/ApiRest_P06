@@ -55,40 +55,40 @@ API REST desarrollada con Node.js, Express y MongoDB para gestionar series de te
 
  **GET / Read**
 
-/api/v1/shows | Obtener todas las series 
-/api/v1/shows/:name | Obtener las series por nombre 
-/api/v1/shows/categories/:category | Obtener todas las series dentro de una misma categoría
+/api/v1/shows | Obtener todas las series  
+/api/v1/shows/:name | Obtener las series por nombre  
+/api/v1/shows/categories/:category | Obtener todas las series dentro de una misma categoría  
 
  **POST / Create**
  
- /api/v1/shows | Crear una nueva serie 
+ /api/v1/shows | Crear una nueva serie  
 
  **PUT / Update**
  
-  /api/v1/shows/:id | Actualizar una serie a partir de su ObjectId
+  /api/v1/shows/:id | Actualizar una serie a partir de su ObjectId  
  
  **DELETE**
 
- /api/v1/shows/:id | Eliminar una serie a partir de su ObjectId
+ /api/v1/shows/:id | Eliminar una serie a partir de su ObjectId  
  
  
 ## ▶️Plataformas de streaming
 
  **GET / Read**
  
- /api/v1/platforms | Obtener todas las plataformas
+ /api/v1/platforms | Obtener todas las plataformas  
  
  **POST / Create**
 
-/api/v1/platforms | Crear una nueva plataforma
+/api/v1/platforms | Crear una nueva plataforma  
 
  **PUT / Update**
  
- /api/v1/platforms/:id | Actualizar una plataforma a partir de su ObjectId
+ /api/v1/platforms/:id | Actualizar una plataforma a partir de su ObjectId  
  
  **DELETE**
 
- /api/v1/platforms/:id | Eliminar una plataforma a partir de su ObjectId
+ /api/v1/platforms/:id | Eliminar una plataforma a partir de su ObjectId  
 
 
 #  🧠 MODELS
@@ -111,5 +111,5 @@ API REST desarrollada con Node.js, Express y MongoDB para gestionar series de te
 }
 
 ---
-**Rock The Code || Proyecto 06 - Api Rest**
+**Rock The Code || Proyecto 06 - Api Rest**  
 Proyecto desarrollado por _Roman Oliver Gil_.
