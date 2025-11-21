@@ -94,20 +94,20 @@ API REST desarrollada con Node.js, Express y MongoDB para gestionar series de te
 #  🧠 MODELS
 
 **Series**
-{
-  title: String,
-  imgUrl: String,
-  categories: [String],
-  seasons: Number,
-  chapters: Number,
-  isAdultContent: Boolean,
-  platforms: [{ type: ObjectId, ref: "Platform" }] // Datos relacionados
-}
+{  
+  title: String,  
+  imgUrl: String,  
+  categories: [String],  
+  seasons: Number,  
+  chapters: Number,  
+  isAdultContent: Boolean,  
+  platforms: [{ type: ObjectId, ref: "Platform" }] // Datos relacionados  
+}  
 
 **Plataformas**
-{
-  name: String,
-  imgUrl: String,
+{  
+  name: String,  
+  imgUrl: String,  
 }
 
 ---
